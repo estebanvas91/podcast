@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2faff9cdd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="main-menu">
+            <img class="main-menu__logo" src="images/logo.svg" alt="logo">
+                <input class="main-menu__input" type="checkbox" id="boton__control">
+                <label class="main-menu__boton" for="boton__control">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul class="main-menu__list">
+                <li class="main-menu__item"><a class="main-menu__link" href="#episodes">EPISODIOS</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#aboutUs">NOSOTROS</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#guests">ENTREVISTAS</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#topics">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-title">
+            <h1 class="main-title__h1">Hello <span class="main-title__h1--scratch">world</span> pale blue dot<span class="main-title__h1--point">.</span></h1>
+            <p class="main-title__p--mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <p class="main-title__p--desk">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los
+                jueves cada 15 días.</p>
+            <a href="#aboutUs" class="main-title__link">CONOCÉ MÁS</a>
+        </section>
+        <section class="main-episodes" id="episodes">
+            <div class="main-episodes__div--back"></div>
+            <h2 class="main-episodes__title">Episodios</h2>
+            <div class="main-episodes__div--episodes">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/46zLGfpDuFCfg1Q0YQcWOO"
+                    class="main-episodes__episode1"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" 
+                    class="main-episodes__episode2"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                    class="main-episodes__episode3"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                    class="main-episodes__episode4"></iframe>
+            </div>
+        </section>
+        <section class="main-aboutUs" id="aboutUs">
+            <img src="images/phone.png" alt="cellphone" class="main-aboutUs__cellphone">
+            <div class="main-aboutUs__container">
+            <h2 class="main-aboutUs__title">De dónde venimos</h2>
+            <p class="main-aboutUs__description">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light. <br><br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+        <section class="main-guests" id="guests">
+            <h2 class="main-guests__title">Invitadas/os estelares</h2>
+            <div class="main-guests__gallery">
+                <img src="/images/grace-hopper.png" alt="Grace Hopper" class="main-guests__gallery--image">
+                <img src="/images/Katie-Bouman.png" alt="Katie Bouman" class="main-guests__gallery--image">
+                <img src="images/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="main-guests__gallery--image">
+                <img src="images/computer_in1950s.png" alt="Computer in 1950" class="main-guests__gallery--image">
+                <img src="images/Computer_operators.png" alt="Computer operator" class="main-guests__gallery--image">
+                <img src="images/susan-kare.png" alt="Susan-kare" class="main-guests__gallery--image">
+            </div>
+        </section>
+        <section class="main-topics" id="topics">
+            <h2 class="main-topics__title">Algunos de nuestros temas</h2>
+            <div class="main-topics__div--topics">
+              <figure class="main-topics__topic--remote-work">
+                  <img src="images/icon1.svg" alt="Remote Work">
+                  <figcaption>Trabajo remoto</figcaption>
+              </figure>
+              <figure class="main-topics__topic--rethinking-programming">
+                <img src="images/icon2.svg" alt="Rethinking programming">
+                <figcaption>Repensando la programación</figcaption>
+            </figure>
+            <figure class="main-topics__topic--code-bases">
+                <img src="images/icon3.svg" alt="Code bases">
+                <figcaption>Bases del código</figcaption>
+            </figure>
+            <figure class="main-topics__topic--informatic-security">
+                <img src="images/icon4.svg" alt="Informatic security">
+                <figcaption>Seguridad informática</figcaption>
+            </figure>
+            </div>
+        </section>
+        <section class="main-news">
+            <div class="main-news__back"></div>
+            <div class="main-news__more-information">
+                <h2 class="main-news__title">¿Querés las últimas novedades?</h2>
+                <a class="main-news__link" href="#episodes">ESCUCHÁ LOS EPISODIOS</a>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p class="main-footer__copyright">© 2019— Hello blue pale dot</p>
+        <div class="main-footer__socialMedia">
+            <a href="https://www.spotify.com/" target="_blank"><i class="fab fa-lg fa-spotify"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-lg fa-instagram"></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="fab fa-lg fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-lg fa-facebook"></i></a>
+            <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-lg fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

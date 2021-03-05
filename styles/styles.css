@@ -110,7 +110,7 @@ h1, h2 {
     text-decoration: line-through;
 }
 .main-title__h1--point {
-    color: #0000EC;
+    color: #060A24;
 }
 
 .main-title__p--desk {
@@ -476,9 +476,12 @@ i {
         color: #060A24;
     }
     
-    .main-title__h1--span{
+    .main-title__h1--scratch{
         text-decoration: line-through;
     }
+    .main-title__h1--point{
+        color: #060A24;
+    }   
     
     .main-title__p--desk {
         display: none;
@@ -990,10 +993,6 @@ i {
     flex-direction: column;
     align-items: center;
 }
-
-/* .main-news .main-news__link{
-    margin-bottom: 67px;
-} */
 
 .main-news__title{
     margin: 213px 347px 36px 347px;    
